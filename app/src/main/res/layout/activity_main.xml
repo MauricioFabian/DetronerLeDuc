@@ -1,0 +1,34 @@
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="793dp"
+            android:layout_height="384dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/background"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/txt_btn_play"
+            android:id="@+id/btnPlay"
+            android:layout_marginBottom="48dp"
+            android:layout_x="0dp"
+            android:layout_y="1dp"
+            android:onClick="onClickJouer"
+            android:textSize="100sp"
+            android:textColor="#fffdffff"
+            android:layout_gravity="center_horizontal|top" />
+    </FrameLayout>
+
+
+</LinearLayout>
